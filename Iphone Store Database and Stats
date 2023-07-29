@@ -1,0 +1,14 @@
+/** Iphone_store:
+Iphone 6s (5)
+Iphone 7 (8)
+Iphone 8 (9)
+Iphone 9 (10)
+**/
+
+CREATE TABLE Iphone_store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, aisle Integer, amount Integer);
+Insert into Iphone_store values (1, "Iphone 6s", 900, 1, 5);
+Insert into Iphone_store values (2, "Iphone 7", 1100, 2, 8);
+Insert into Iphone_store values (3, "Iphone 8", 1200, 3, 9);
+Insert into Iphone_store values (4, "Iphone 9", 1300, 4, 10);
+SELECT * FROM Iphone_store WHERE price > 800;
+Select amount from Iphone_store where amount < 9;
