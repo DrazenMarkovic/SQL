@@ -1,3 +1,5 @@
+--Create a store database
+
 /** Iphone_store:
 Iphone 6s (5)
 Iphone 7 (8)
@@ -10,5 +12,9 @@ Insert into Iphone_store values (1, "Iphone 6s", 900, 1, 5);
 Insert into Iphone_store values (2, "Iphone 7", 1100, 2, 8);
 Insert into Iphone_store values (3, "Iphone 8", 1200, 3, 9);
 Insert into Iphone_store values (4, "Iphone 9", 1300, 4, 10);
+
+--display the database ordered by price greater than 800$. 
 SELECT * FROM Iphone_store WHERE price > 800;
+
+--display the amount of Iphones ordered lower than 9 pieces. 
 Select amount from Iphone_store where amount < 9;
